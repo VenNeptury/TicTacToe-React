@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import './index.scss';
-import { SquareProps, BoardProps, GameState } from './interfaces/Square';
+import { SquareProps, BoardProps, GameState } from './interfaces';
 
 const Square = (props: SquareProps) => (
 	<button className="square" onClick={props.onClick}>
